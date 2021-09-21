@@ -35,7 +35,11 @@ function MonthCalendar({ year, month }: IProps) {
               if (dateNumber > lastDate || dateNumber <= 0) return <td key={dateNumber}></td>;
               return <td key={dateNumber} className={[day === 0 ? "color-red" : "color-grey", (date.year === year && date.month === month && date.day === dateNumber) ? 'selected' : ''].join(' ')} onClick={() => selectDate(year, month, dateNumber)}>
                 <div>{dateNumber}</div>
-                <div>{numberWithCommas(paymentsByDay[dayString(year, month, dateNumber)]?.sum || 0)}</div>
+                <div>
+                  {dateNumber === 25 ? `결제일` : ''}
+                  {dateNumber === 25 ? <br/> : ''}
+                  {numberWithCommas(paymentsByDay[dayString(year, month, dateNumber)]?.sum || 0)}
+                </div>
               </td>
             })}
           </tr>)}
