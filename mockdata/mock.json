@@ -1,0 +1,3682 @@
+[
+  {
+    "id": 0,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 8,
+      "hour": 2,
+      "minute": 23,
+      "second": 59
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 52719020, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7772"
+    },
+    "price": 19300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 1,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 28,
+      "hour": 18,
+      "minute": 25,
+      "second": 5
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 1324935, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7773"
+    },
+    "price": 37500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 2,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 26,
+      "hour": 17,
+      "minute": 6,
+      "second": 0
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 22991621, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7774"
+    },
+    "price": 31100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 3,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 28,
+      "hour": 10,
+      "minute": 55,
+      "second": 57
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 45344119, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7775"
+    },
+    "price": 28000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 4,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 16,
+      "hour": 6,
+      "minute": 42,
+      "second": 56
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 22040749, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7776"
+    },
+    "price": 4500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 5,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 22,
+      "hour": 16,
+      "minute": 56,
+      "second": 38
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 88315617, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7777"
+    },
+    "price": 30400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 6,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 5,
+      "hour": 0,
+      "minute": 3,
+      "second": 49
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 78729650, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7778"
+    },
+    "price": 49400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 7,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 13,
+      "hour": 0,
+      "minute": 28,
+      "second": 31
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 49537544, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7779"
+    },
+    "price": 41400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 8,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 29,
+      "hour": 0,
+      "minute": 5,
+      "second": 29
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 61599126, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7780"
+    },
+    "price": 1600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 9,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 6,
+      "hour": 10,
+      "minute": 53,
+      "second": 56
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 97903463, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7781"
+    },
+    "price": 4700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 10,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 22,
+      "hour": 22,
+      "minute": 36,
+      "second": 19
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 91760843, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7782"
+    },
+    "price": 42700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 11,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 29,
+      "hour": 14,
+      "minute": 57,
+      "second": 31
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 70986628, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7783"
+    },
+    "price": 26900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 12,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 27,
+      "hour": 8,
+      "minute": 14,
+      "second": 6
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 34230468, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7784"
+    },
+    "price": 11200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 13,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 26,
+      "hour": 22,
+      "minute": 38,
+      "second": 46
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 20622983, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7785"
+    },
+    "price": 20000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 14,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 30,
+      "hour": 21,
+      "minute": 35,
+      "second": 52
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 67863735, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7786"
+    },
+    "price": 26100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 15,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 25,
+      "hour": 1,
+      "minute": 47,
+      "second": 50
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 69660196, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7787"
+    },
+    "price": 49500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 16,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 24,
+      "hour": 2,
+      "minute": 0,
+      "second": 13
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 22062442, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7788"
+    },
+    "price": 29300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 17,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 21,
+      "hour": 2,
+      "minute": 37,
+      "second": 31
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 94990700, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7789"
+    },
+    "price": 8500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 18,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 6,
+      "hour": 13,
+      "minute": 3,
+      "second": 20
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 19855203, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7790"
+    },
+    "price": 9600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 19,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 18,
+      "hour": 9,
+      "minute": 41,
+      "second": 3
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 33615687, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7791"
+    },
+    "price": 24400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 20,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 21,
+      "hour": 13,
+      "minute": 8,
+      "second": 29
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 7708188, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7792"
+    },
+    "price": 10900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 21,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 8,
+      "hour": 16,
+      "minute": 47,
+      "second": 13
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 8578737, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7793"
+    },
+    "price": 15100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 22,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 6,
+      "hour": 5,
+      "minute": 41,
+      "second": 7
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 97425844, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7794"
+    },
+    "price": 45700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 23,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 30,
+      "hour": 23,
+      "minute": 2,
+      "second": 16
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 9010689, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7795"
+    },
+    "price": 36500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 24,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 7,
+      "hour": 7,
+      "minute": 26,
+      "second": 48
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 23764213, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7796"
+    },
+    "price": 4000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 25,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 1,
+      "hour": 17,
+      "minute": 15,
+      "second": 27
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 28650859, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7797"
+    },
+    "price": 27400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 26,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 7,
+      "hour": 2,
+      "minute": 26,
+      "second": 45
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 966677, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7798"
+    },
+    "price": 43900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 27,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 1,
+      "hour": 8,
+      "minute": 17,
+      "second": 1
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 67027109, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7799"
+    },
+    "price": 35500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 28,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 7,
+      "hour": 4,
+      "minute": 57,
+      "second": 36
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 74472528, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7800"
+    },
+    "price": 16000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 29,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 3,
+      "hour": 10,
+      "minute": 47,
+      "second": 40
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 50523238, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7801"
+    },
+    "price": 45900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 30,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 7,
+      "hour": 5,
+      "minute": 57,
+      "second": 49
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 31733986, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7802"
+    },
+    "price": 39200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 31,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 23,
+      "hour": 9,
+      "minute": 21,
+      "second": 23
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 11934657, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7803"
+    },
+    "price": 18600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 32,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 16,
+      "hour": 8,
+      "minute": 5,
+      "second": 21
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 93661427, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7804"
+    },
+    "price": 13200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 33,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 22,
+      "hour": 1,
+      "minute": 27,
+      "second": 17
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 28472298, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7805"
+    },
+    "price": 48900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 34,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 3,
+      "hour": 24,
+      "minute": 18,
+      "second": 22
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 30015518, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7806"
+    },
+    "price": 6800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 35,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 18,
+      "hour": 18,
+      "minute": 7,
+      "second": 33
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 12742993, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7807"
+    },
+    "price": 28300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 36,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 6,
+      "hour": 18,
+      "minute": 55,
+      "second": 10
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 66458171, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7808"
+    },
+    "price": 13500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 37,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 7,
+      "hour": 6,
+      "minute": 32,
+      "second": 11
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 58797194, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7809"
+    },
+    "price": 43600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 38,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 9,
+      "hour": 13,
+      "minute": 25,
+      "second": 13
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 5402631, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7810"
+    },
+    "price": 31400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 39,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 24,
+      "hour": 10,
+      "minute": 54,
+      "second": 33
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 97239526, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7811"
+    },
+    "price": 7700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 40,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 24,
+      "hour": 11,
+      "minute": 11,
+      "second": 48
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 8770790, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7812"
+    },
+    "price": 43700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 41,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 20,
+      "hour": 20,
+      "minute": 37,
+      "second": 43
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 17554646, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7813"
+    },
+    "price": 17500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 42,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 10,
+      "hour": 16,
+      "minute": 36,
+      "second": 58
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 68839431, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7814"
+    },
+    "price": 40000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 43,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 10,
+      "hour": 1,
+      "minute": 0,
+      "second": 41
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 81682510, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7815"
+    },
+    "price": 9300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 44,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 26,
+      "hour": 22,
+      "minute": 59,
+      "second": 49
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 68165067, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7816"
+    },
+    "price": 30300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 45,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 6,
+      "hour": 19,
+      "minute": 1,
+      "second": 57
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 16518943, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7817"
+    },
+    "price": 22300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 46,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 25,
+      "hour": 4,
+      "minute": 57,
+      "second": 22
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 34811319, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7818"
+    },
+    "price": 31800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 47,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 17,
+      "hour": 14,
+      "minute": 6,
+      "second": 6
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 22016786, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7819"
+    },
+    "price": 31000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 48,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 31,
+      "hour": 22,
+      "minute": 31,
+      "second": 50
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 82516775, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7820"
+    },
+    "price": 49000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 49,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 24,
+      "hour": 9,
+      "minute": 56,
+      "second": 2
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 30080165, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7821"
+    },
+    "price": 26900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 50,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 22,
+      "hour": 23,
+      "minute": 37,
+      "second": 36
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 73851761, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7822"
+    },
+    "price": 43500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 51,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 12,
+      "hour": 4,
+      "minute": 15,
+      "second": 9
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 63202065, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7823"
+    },
+    "price": 19800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 52,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 20,
+      "hour": 0,
+      "minute": 40,
+      "second": 8
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 8697995, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7824"
+    },
+    "price": 37700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 53,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 28,
+      "hour": 24,
+      "minute": 27,
+      "second": 41
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 63078783, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7825"
+    },
+    "price": 12800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 54,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 4,
+      "hour": 20,
+      "minute": 8,
+      "second": 10
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 60487565, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7826"
+    },
+    "price": 27500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 55,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 5,
+      "hour": 15,
+      "minute": 2,
+      "second": 59
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 32091461, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7827"
+    },
+    "price": 26800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 56,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 22,
+      "hour": 2,
+      "minute": 51,
+      "second": 43
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 12560396, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7828"
+    },
+    "price": 7500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 57,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 6,
+      "hour": 22,
+      "minute": 44,
+      "second": 41
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 74984949, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7829"
+    },
+    "price": 23000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 58,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 9,
+      "hour": 5,
+      "minute": 7,
+      "second": 0
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 79809273, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7830"
+    },
+    "price": 47200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 59,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 14,
+      "hour": 12,
+      "minute": 1,
+      "second": 23
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 66270471, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7831"
+    },
+    "price": 25900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 60,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 21,
+      "hour": 6,
+      "minute": 38,
+      "second": 41
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 93607183, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7832"
+    },
+    "price": 27900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 61,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 6,
+      "hour": 9,
+      "minute": 33,
+      "second": 39
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 49365970, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7833"
+    },
+    "price": 3600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 62,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 28,
+      "hour": 6,
+      "minute": 25,
+      "second": 42
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 27044709, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7834"
+    },
+    "price": 21100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 63,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 16,
+      "hour": 7,
+      "minute": 26,
+      "second": 12
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 96364396, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7835"
+    },
+    "price": 45600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 64,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 12,
+      "hour": 24,
+      "minute": 51,
+      "second": 51
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 2999317, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7836"
+    },
+    "price": 16600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 65,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 6,
+      "hour": 9,
+      "minute": 15,
+      "second": 2
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 99245610, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7837"
+    },
+    "price": 12300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 66,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 16,
+      "hour": 19,
+      "minute": 40,
+      "second": 42
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 58830206, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7838"
+    },
+    "price": 1300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 67,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 31,
+      "hour": 3,
+      "minute": 47,
+      "second": 6
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 2544759, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7839"
+    },
+    "price": 37400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 68,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 17,
+      "hour": 7,
+      "minute": 48,
+      "second": 51
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 1920580, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7840"
+    },
+    "price": 15800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 69,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 1,
+      "hour": 17,
+      "minute": 57,
+      "second": 21
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 28743992, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7841"
+    },
+    "price": 6600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 70,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 9,
+      "hour": 14,
+      "minute": 41,
+      "second": 23
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 32315295, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7842"
+    },
+    "price": 17300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 71,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 17,
+      "hour": 3,
+      "minute": 30,
+      "second": 49
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 47312988, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7843"
+    },
+    "price": 17700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 72,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 30,
+      "hour": 4,
+      "minute": 15,
+      "second": 27
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 98829914, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7844"
+    },
+    "price": 34400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 73,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 25,
+      "hour": 0,
+      "minute": 41,
+      "second": 23
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 29297070, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7845"
+    },
+    "price": 17200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 74,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 16,
+      "hour": 14,
+      "minute": 59,
+      "second": 40
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 98803179, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7846"
+    },
+    "price": 24900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 75,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 26,
+      "hour": 4,
+      "minute": 8,
+      "second": 30
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 46112251, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7847"
+    },
+    "price": 18600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 76,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 25,
+      "hour": 14,
+      "minute": 21,
+      "second": 17
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 98758370, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7848"
+    },
+    "price": 28900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 77,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 26,
+      "hour": 3,
+      "minute": 40,
+      "second": 23
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 74789776, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7849"
+    },
+    "price": 34100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 78,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 8,
+      "hour": 2,
+      "minute": 26,
+      "second": 1
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 2320660, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7850"
+    },
+    "price": 24300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 79,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 21,
+      "hour": 16,
+      "minute": 30,
+      "second": 33
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 74916007, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7851"
+    },
+    "price": 32800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 80,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 16,
+      "hour": 13,
+      "minute": 7,
+      "second": 11
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 95561942, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7852"
+    },
+    "price": 24800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 81,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 2,
+      "hour": 7,
+      "minute": 3,
+      "second": 3
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 94097083, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7853"
+    },
+    "price": 12500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 82,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 26,
+      "hour": 20,
+      "minute": 3,
+      "second": 59
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 70327584, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7854"
+    },
+    "price": 6800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 83,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 23,
+      "hour": 21,
+      "minute": 17,
+      "second": 3
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 29664506, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7855"
+    },
+    "price": 50000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 84,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 7,
+      "hour": 10,
+      "minute": 15,
+      "second": 26
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 38920429, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7856"
+    },
+    "price": 10800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 85,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 2,
+      "hour": 2,
+      "minute": 21,
+      "second": 12
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 41812435, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7857"
+    },
+    "price": 32600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 86,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 18,
+      "hour": 21,
+      "minute": 16,
+      "second": 8
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 73717316, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7858"
+    },
+    "price": 47200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 87,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 29,
+      "hour": 2,
+      "minute": 59,
+      "second": 3
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 46268086, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7859"
+    },
+    "price": 23000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 88,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 6,
+      "hour": 0,
+      "minute": 24,
+      "second": 27
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 11876408, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7860"
+    },
+    "price": 46600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 89,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 30,
+      "hour": 17,
+      "minute": 0,
+      "second": 15
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 58353096, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7861"
+    },
+    "price": 42100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 90,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 9,
+      "hour": 20,
+      "minute": 41,
+      "second": 31
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 76326120, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7862"
+    },
+    "price": 14400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 91,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 1,
+      "hour": 17,
+      "minute": 37,
+      "second": 10
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 61868794, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7863"
+    },
+    "price": 34000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 92,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 26,
+      "hour": 10,
+      "minute": 45,
+      "second": 28
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 61837277, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7864"
+    },
+    "price": 19600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 93,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 25,
+      "hour": 12,
+      "minute": 45,
+      "second": 28
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 9167161, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7865"
+    },
+    "price": 25900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 94,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 3,
+      "hour": 11,
+      "minute": 22,
+      "second": 19
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 90360766, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7866"
+    },
+    "price": 16500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 95,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 16,
+      "hour": 6,
+      "minute": 46,
+      "second": 32
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 48149560, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7867"
+    },
+    "price": 16200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 96,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 12,
+      "hour": 22,
+      "minute": 1,
+      "second": 21
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 38217269, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7868"
+    },
+    "price": 33400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 97,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 16,
+      "hour": 8,
+      "minute": 47,
+      "second": 32
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 19427111, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7869"
+    },
+    "price": 38400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 98,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 9,
+      "hour": 10,
+      "minute": 17,
+      "second": 50
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 3470052, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7870"
+    },
+    "price": 37100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 99,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 8,
+      "hour": 3,
+      "minute": 29,
+      "second": 36
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 75702688, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7871"
+    },
+    "price": 16600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 100,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 8,
+      "hour": 19,
+      "minute": 8,
+      "second": 27
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 3275191, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7872"
+    },
+    "price": 34000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 101,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 28,
+      "hour": 6,
+      "minute": 23,
+      "second": 21
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 75379944, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7873"
+    },
+    "price": 46400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 102,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 13,
+      "hour": 1,
+      "minute": 9,
+      "second": 55
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 45627376, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7874"
+    },
+    "price": 47100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 103,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 19,
+      "hour": 18,
+      "minute": 26,
+      "second": 15
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 74817242, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7875"
+    },
+    "price": 25100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 104,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 1,
+      "hour": 19,
+      "minute": 19,
+      "second": 11
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 99207615, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7876"
+    },
+    "price": 9200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 105,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 14,
+      "hour": 1,
+      "minute": 0,
+      "second": 30
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 46434126, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7877"
+    },
+    "price": 8600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 106,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 1,
+      "hour": 2,
+      "minute": 7,
+      "second": 49
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 19557853, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7878"
+    },
+    "price": 3600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 107,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 4,
+      "hour": 13,
+      "minute": 2,
+      "second": 6
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 42517421, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7879"
+    },
+    "price": 1500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 108,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 30,
+      "hour": 22,
+      "minute": 48,
+      "second": 55
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 74186093, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7880"
+    },
+    "price": 17300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 109,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 14,
+      "hour": 23,
+      "minute": 33,
+      "second": 9
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 93098662, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7881"
+    },
+    "price": 34600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 110,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 4,
+      "hour": 10,
+      "minute": 24,
+      "second": 41
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 27134932, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7882"
+    },
+    "price": 12600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 111,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 21,
+      "hour": 4,
+      "minute": 43,
+      "second": 59
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 8281761, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7883"
+    },
+    "price": 23900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 112,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 18,
+      "hour": 22,
+      "minute": 25,
+      "second": 27
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 92780921, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7884"
+    },
+    "price": 19900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 113,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 19,
+      "hour": 12,
+      "minute": 58,
+      "second": 56
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 65049832, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7885"
+    },
+    "price": 37600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 114,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 3,
+      "hour": 18,
+      "minute": 39,
+      "second": 28
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 85987824, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7886"
+    },
+    "price": 49200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 115,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 7,
+      "hour": 22,
+      "minute": 40,
+      "second": 46
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 11595632, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7887"
+    },
+    "price": 9800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 116,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 1,
+      "hour": 3,
+      "minute": 22,
+      "second": 38
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 82092843, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7888"
+    },
+    "price": 19900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 117,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 6,
+      "hour": 24,
+      "minute": 12,
+      "second": 44
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 60886259, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7889"
+    },
+    "price": 44200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 118,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 17,
+      "hour": 10,
+      "minute": 14,
+      "second": 26
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 45502496, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7890"
+    },
+    "price": 33300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 119,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 22,
+      "hour": 6,
+      "minute": 3,
+      "second": 37
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 63337119, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7891"
+    },
+    "price": 36000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 120,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 10,
+      "hour": 0,
+      "minute": 10,
+      "second": 48
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 93918029, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7892"
+    },
+    "price": 10000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 121,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 19,
+      "hour": 0,
+      "minute": 29,
+      "second": 29
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 16543134, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7893"
+    },
+    "price": 11900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 122,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 10,
+      "hour": 18,
+      "minute": 19,
+      "second": 16
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 79465354, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7894"
+    },
+    "price": 32400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 123,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 15,
+      "hour": 8,
+      "minute": 31,
+      "second": 0
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 59969122, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7895"
+    },
+    "price": 21400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 124,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 19,
+      "hour": 10,
+      "minute": 18,
+      "second": 42
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 95400545, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7896"
+    },
+    "price": 11400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 125,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 9,
+      "hour": 3,
+      "minute": 0,
+      "second": 2
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 12871557, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7897"
+    },
+    "price": 27200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 126,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 31,
+      "hour": 19,
+      "minute": 10,
+      "second": 7
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 53790201, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7898"
+    },
+    "price": 4000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 127,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 14,
+      "hour": 6,
+      "minute": 16,
+      "second": 27
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 94608047, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7899"
+    },
+    "price": 26100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 128,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 9,
+      "hour": 10,
+      "minute": 19,
+      "second": 37
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 35880446, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7900"
+    },
+    "price": 28700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 129,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 15,
+      "hour": 6,
+      "minute": 33,
+      "second": 33
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 44549171, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7901"
+    },
+    "price": 9700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 130,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 10,
+      "hour": 24,
+      "minute": 6,
+      "second": 39
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 42085401, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7902"
+    },
+    "price": 19100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 131,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 6,
+      "hour": 22,
+      "minute": 59,
+      "second": 12
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 62262233, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7903"
+    },
+    "price": 36700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 132,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 12,
+      "hour": 12,
+      "minute": 15,
+      "second": 7
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 76024519, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7904"
+    },
+    "price": 34200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 133,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 28,
+      "hour": 3,
+      "minute": 8,
+      "second": 24
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 72273360, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7905"
+    },
+    "price": 1700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 134,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 6,
+      "hour": 11,
+      "minute": 47,
+      "second": 38
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 89259606, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7906"
+    },
+    "price": 30000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 135,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 21,
+      "hour": 10,
+      "minute": 11,
+      "second": 41
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 87880823, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7907"
+    },
+    "price": 34800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 136,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 19,
+      "hour": 21,
+      "minute": 18,
+      "second": 10
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 6830632, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7908"
+    },
+    "price": 38200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 137,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 17,
+      "hour": 20,
+      "minute": 30,
+      "second": 3
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 88098442, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7909"
+    },
+    "price": 9600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 138,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 15,
+      "hour": 20,
+      "minute": 39,
+      "second": 49
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 3930865, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7910"
+    },
+    "price": 24000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 139,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 3,
+      "hour": 23,
+      "minute": 12,
+      "second": 32
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 15326504, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7911"
+    },
+    "price": 18200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 140,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 30,
+      "hour": 15,
+      "minute": 26,
+      "second": 21
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 30725533, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7912"
+    },
+    "price": 1400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 141,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 27,
+      "hour": 17,
+      "minute": 8,
+      "second": 29
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 59813506, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7913"
+    },
+    "price": 48100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 142,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 14,
+      "hour": 3,
+      "minute": 50,
+      "second": 47
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 94095219, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7914"
+    },
+    "price": 19300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 143,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 12,
+      "hour": 15,
+      "minute": 24,
+      "second": 26
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 82983165, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7915"
+    },
+    "price": 28600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 144,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 2,
+      "hour": 22,
+      "minute": 54,
+      "second": 6
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 24729849, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7916"
+    },
+    "price": 27900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 145,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 17,
+      "hour": 16,
+      "minute": 12,
+      "second": 17
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 84417633, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7917"
+    },
+    "price": 37400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 146,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 13,
+      "hour": 18,
+      "minute": 49,
+      "second": 47
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 47327438, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7918"
+    },
+    "price": 12800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 147,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 6,
+      "hour": 18,
+      "minute": 3,
+      "second": 16
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 77432200, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7919"
+    },
+    "price": 22200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 148,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 14,
+      "hour": 9,
+      "minute": 9,
+      "second": 41
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 56542948, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7920"
+    },
+    "price": 49600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 149,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 2,
+      "hour": 22,
+      "minute": 0,
+      "second": 9
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 73034409, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7921"
+    },
+    "price": 28800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 150,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 13,
+      "hour": 19,
+      "minute": 1,
+      "second": 16
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 96727833, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7922"
+    },
+    "price": 30200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 151,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 27,
+      "hour": 8,
+      "minute": 47,
+      "second": 9
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 478807, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7923"
+    },
+    "price": 27200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 152,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 21,
+      "hour": 11,
+      "minute": 28,
+      "second": 15
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 78404241, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7924"
+    },
+    "price": 24700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 153,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 16,
+      "hour": 23,
+      "minute": 37,
+      "second": 55
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 10017834, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7925"
+    },
+    "price": 14600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 154,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 5,
+      "hour": 2,
+      "minute": 57,
+      "second": 14
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 6895578, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7926"
+    },
+    "price": 4100,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 155,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 24,
+      "hour": 22,
+      "minute": 6,
+      "second": 46
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 6782347, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7927"
+    },
+    "price": 11400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 156,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 15,
+      "hour": 6,
+      "minute": 48,
+      "second": 16
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 80716381, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7928"
+    },
+    "price": 8700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 157,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 15,
+      "hour": 17,
+      "minute": 41,
+      "second": 26
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 77536821, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7929"
+    },
+    "price": 23700,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 158,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 14,
+      "hour": 8,
+      "minute": 17,
+      "second": 58
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 60400308, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7930"
+    },
+    "price": 39600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 159,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 23,
+      "hour": 8,
+      "minute": 24,
+      "second": 5
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 69442407, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7931"
+    },
+    "price": 4300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 160,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 21,
+      "hour": 0,
+      "minute": 21,
+      "second": 47
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 47669749, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7932"
+    },
+    "price": 41900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 161,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 3,
+      "hour": 20,
+      "minute": 38,
+      "second": 57
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 13585710, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7933"
+    },
+    "price": 10800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 162,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 30,
+      "hour": 9,
+      "minute": 2,
+      "second": 59
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 24540233, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7934"
+    },
+    "price": 20300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 163,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 10,
+      "hour": 4,
+      "minute": 22,
+      "second": 52
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 9114928, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7935"
+    },
+    "price": 28200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 164,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 27,
+      "hour": 4,
+      "minute": 52,
+      "second": 22
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 20486521, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7936"
+    },
+    "price": 3500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 165,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 11,
+      "hour": 16,
+      "minute": 8,
+      "second": 36
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 76153334, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7937"
+    },
+    "price": 26400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 166,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 29,
+      "hour": 12,
+      "minute": 0,
+      "second": 25
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 30616379, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7938"
+    },
+    "price": 18900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 167,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 21,
+      "hour": 19,
+      "minute": 42,
+      "second": 34
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 78580404, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7939"
+    },
+    "price": 2200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 168,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 16,
+      "hour": 10,
+      "minute": 9,
+      "second": 59
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 40406481, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7940"
+    },
+    "price": 22900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 169,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 21,
+      "hour": 17,
+      "minute": 11,
+      "second": 0
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 19193287, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7941"
+    },
+    "price": 43400,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 170,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 31,
+      "hour": 8,
+      "minute": 0,
+      "second": 42
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 3518931, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7942"
+    },
+    "price": 46500,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 171,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 21,
+      "hour": 9,
+      "minute": 11,
+      "second": 25
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 29158790, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7943"
+    },
+    "price": 44600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 172,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 5,
+      "hour": 3,
+      "minute": 23,
+      "second": 50
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 13165718, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7944"
+    },
+    "price": 38300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 173,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 9,
+      "hour": 14,
+      "minute": 52,
+      "second": 54
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 47073341, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7945"
+    },
+    "price": 15200,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 174,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 23,
+      "hour": 21,
+      "minute": 49,
+      "second": 28
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 38113180, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7946"
+    },
+    "price": 38600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 175,
+    "date": {
+      "year": 2021,
+      "month": 1,
+      "day": 7,
+      "hour": 1,
+      "minute": 24,
+      "second": 50
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 97963437, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7947"
+    },
+    "price": 29600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 176,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 9,
+      "hour": 6,
+      "minute": 33,
+      "second": 34
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 9473177, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7948"
+    },
+    "price": 42600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 177,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 11,
+      "hour": 5,
+      "minute": 57,
+      "second": 35
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 3341950, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7949"
+    },
+    "price": 1300,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 178,
+    "date": {
+      "year": 2021,
+      "month": 9,
+      "day": 20,
+      "hour": 15,
+      "minute": 21,
+      "second": 27
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 30728848, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7950"
+    },
+    "price": 17900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 179,
+    "date": {
+      "year": 2021,
+      "month": 3,
+      "day": 12,
+      "hour": 19,
+      "minute": 6,
+      "second": 11
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 45708997, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7951"
+    },
+    "price": 47800,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 180,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 10,
+      "hour": 0,
+      "minute": 22,
+      "second": 12
+    },
+    "installment": { "month": 1, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 91868982, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7952"
+    },
+    "price": 13600,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 181,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 30,
+      "hour": 0,
+      "minute": 50,
+      "second": 24
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 66935019, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7953"
+    },
+    "price": 49900,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 182,
+    "date": {
+      "year": 2021,
+      "month": 2,
+      "day": 13,
+      "hour": 8,
+      "minute": 18,
+      "second": 38
+    },
+    "installment": { "month": 2, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 38998049, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7954"
+    },
+    "price": 36000,
+    "client": "29CM - (주)에이플러스비"
+  },
+  {
+    "id": 183,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 25,
+      "hour": 24,
+      "minute": 25,
+      "second": 3
+    },
+    "installment": { "month": 0, "paid": true },
+    "card": { "id": 0, "name": "M BOOST", "holder": "본인" },
+    "approval": { "number": 43635976, "state": true },
+    "location": {
+      "address": "서울 강남구 테헤란로 131 (역삼동 한국 지식재산센터)",
+      "phoneNumber": "02-1544-7955"
+    },
+    "price": 10000,
+    "client": "29CM - (주)에이플러스비"
+  }
+]
