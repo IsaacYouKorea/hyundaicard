@@ -1,23 +1,40 @@
 import { useContext, useState } from "react";
-import { usePaymentState } from "../context";
+import styled from "styled-components";
+import { usePaymentDispatch, usePaymentState } from "../context";
 
+const PaymentDetailDiv = styled.div`
+  position: absolute;
+  z-index: 10;
+  background: white;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+`
 
 function PaymentDetail() {
+
   const [priceDetail, setPriceDetail] = useState(true);
   
   const { selectedPaymentData } = usePaymentState();
+  const dispatch = usePaymentDispatch();
+
   if (!selectedPaymentData) {
     return <></>;
   }
   const { client, price, date, approval, card, installment, location } = selectedPaymentData;
+
+  const closePopup = () => dispatch({type: 'PAYMENT/SELECT_PAYMENT', data: undefined})
   
-  return <div>
+  return <PaymentDetailDiv>
     <div>
-      {client.name}
+      {client}
     </div>
     <div>
       <div>
-        {price}
+        <div>{price}</div>
+        <button onClick={closePopup}>
+          닫기
+        </button>
       </div>
       <button onClick={() => setPriceDetail(!priceDetail)}>
         금액상세
@@ -42,7 +59,7 @@ function PaymentDetail() {
       </div>
       <div>
         <div>승인번호</div>
-        <div>{approval.number.padStart(8, '0')}</div>
+        <div>{approval.number.toString().padStart(8, '0')}</div>
       </div>
       <div>
         <div>승인상태</div>
@@ -61,7 +78,7 @@ function PaymentDetail() {
         <div>가맹점 상세</div>
       </div>
     </div>
-  </div>
+  </PaymentDetailDiv>
 }
 
 export default PaymentDetail;

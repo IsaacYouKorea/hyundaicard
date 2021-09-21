@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper';
 
 import 'swiper/swiper.min.css'
-import { usePaymentDispatch } from '../../context';
+import { usePaymentDispatch, usePaymentState } from '../../context';
 import MonthCalendar from './month-calendar';
 
 const months = new Array(24).fill(0).map((_, index) => {
@@ -17,9 +17,10 @@ const months = new Array(24).fill(0).map((_, index) => {
 }).reverse();
 
 function CalendarSwiper() {
+  const state = usePaymentState();
   const dispatch = usePaymentDispatch();
   const onSlideChange = useCallback((swiper: SwiperCore) => {
-    const setYearMonth = (year: number, month: number) => dispatch({ type: 'CALENDAR/SET_DATE', year, month })
+    const setYearMonth = (year: number, month: number) => dispatch({ type: 'CALENDAR/SET_DATE', year, month, day: state.date.day })
     const { year, month } = months[swiper.realIndex];
     setYearMonth(year, month);
   }, []);

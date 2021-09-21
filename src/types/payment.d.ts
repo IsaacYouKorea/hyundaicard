@@ -4,20 +4,20 @@ enum APPROVAL_STATE {
   WAITING = 'WAITING'
 }
 
-interface Location {
+interface Address {
   address: string,
   phoneNumber: string,
 }
 
 interface Card {
-  id: string,
+  id: number,
   name: string,
   holder: string,
 }
 
 interface Approval {
-  number: string, // 승인 번호
-  state: APPROVAL_STATE // 승인 상태
+  number: number, // 승인 번호
+  state: boolean // 승인 상태
 }
 
 interface Installment {
@@ -39,12 +39,12 @@ interface DateTime {
 }
 
 interface PaymentData {
-  id: string,
+  id: number,
   date: DateTime,
   installment: Installment,
   card: Card,
   approval: Approval,
-  location: Location,
+  location: Address,
   price: number,
-  client: Client
+  client: string
 }
