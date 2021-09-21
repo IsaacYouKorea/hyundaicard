@@ -1,4 +1,6 @@
 import { usePaymentDispatch, usePaymentState } from "../../context";
+import { dayString } from "../../util/date";
+import { numberWithCommas } from "../../util/number";
 
 interface IProps {
   year: number,
@@ -12,7 +14,7 @@ function MonthCalendar({ year, month }: IProps) {
   const firstDay = new Date(year, month, 1).getDay();
   const lastDate = new Date(year, month + 1, 0).getDate();
 
-  const { date } = usePaymentState();
+  const { date, paymentsByDay } = usePaymentState();
   const dispatch = usePaymentDispatch();
   const selectDate = (year: number, month: number, day: number) => {
     dispatch({ type: "CALENDAR/SET_DATE", year, month, day });
@@ -31,7 +33,10 @@ function MonthCalendar({ year, month }: IProps) {
             {new Array(7).fill(0).map((_, day) => {
               const dateNumber = (week * 7) + day - firstDay + 1;
               if (dateNumber > lastDate || dateNumber <= 0) return <td key={dateNumber}></td>;
-              return <td key={dateNumber} className={[day === 0 ? "color-red" : "color-grey", (date.year === year && date.month === month && date.day === dateNumber) ? 'selected' : ''].join(' ')} onClick={() => selectDate(year, month, dateNumber)}>{dateNumber}</td>
+              return <td key={dateNumber} className={[day === 0 ? "color-red" : "color-grey", (date.year === year && date.month === month && date.day === dateNumber) ? 'selected' : ''].join(' ')} onClick={() => selectDate(year, month, dateNumber)}>
+                <div>{dateNumber}</div>
+                <div>{numberWithCommas(paymentsByDay[dayString(year, month, dateNumber)]?.sum || 0)}</div>
+              </td>
             })}
           </tr>)}
         </tbody>
