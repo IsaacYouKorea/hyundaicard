@@ -40,6 +40,7 @@ function DaySummary() {
       <div className="list">
         {list.length === 0 && '이용내역이 없습니다'}
         {list.map((item) => <Item payment={item}/>)}
+        {list.length !== 0 && <div>일부 금액은 실제 결제 금액과 다를 수 있습니다.<br/>정확한 결제 금액은 이용대금명세서를 확인해 주세요.</div>}
       </div>
     </DaySummaryDiv>
   );
