@@ -15,7 +15,7 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
     transition: 0.5s transform;
     z-index: 5;
     width: 100vw;
-    height: 100px;
+    height: 170px;
     flex: 1;
     flex-direction: column;
     flex-shrink: 1;
@@ -50,7 +50,7 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
       overflow-y: scroll;
       margin: 0 -${theme.paddings.base};
       padding: 0 ${theme.paddings.base};
-      height: 100px;
+      height: 170px;
       flex: 1;
       .message {
         text-align: center;
