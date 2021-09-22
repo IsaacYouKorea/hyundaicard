@@ -15,6 +15,10 @@ const paddings = {
   xl: "3rem",
 };
 
+const height = {
+  modalHeader: "3rem",
+}
+
 const fonts = {
   family: {
     base: `'Noto Sans KR', sans-serif`,
@@ -42,7 +46,7 @@ const colors = {
   black: '#000000',
   grey: {
     100: "#353535",
-    200: "#454545",
+    200: "#3d3d3d",
     300: "#555555",
     400: "#656565",
     500: "#757575",
@@ -81,6 +85,7 @@ const defalutTheme = {
   paddings,
   fonts,
   device,
+  height
 };
 
 // 각 테마는 공통 변수와 함께, 각기 다른 색상 값들을 갖습니다.

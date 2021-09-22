@@ -1,6 +1,4 @@
-function fixDigit(number: number) {
-  return number.toString().padStart(2, '0');
-}
+import { fixDigit } from "./number";
 
 export function dayString(year: number, month:number, day:number) {
   return `${year}${fixDigit(month)}${fixDigit(day)}`;
@@ -17,3 +15,5 @@ export function monthsBefore(monthCount = 24) {
     }
   }).reverse();
 }
+
+export const dayNames = ['일', '월', '화', '수', '목', '금', '토'];

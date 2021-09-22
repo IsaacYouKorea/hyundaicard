@@ -10,9 +10,9 @@ const StyledButton = styled.button`
   ${({theme}) => 
     css`
       color: ${theme.colors.white};
-      font-size: ${theme.fonts.size.lg};
+      font-size: ${theme.fonts.size.xl};
       font-family: ${theme.fonts.family.youAndI};
-      margin: auto 0;
+      margin: ${theme.margins.lg} 0;
     `
   }
 `

@@ -75,7 +75,7 @@ function MonthCalendar({ year, month }: IProps) {
 
   return (
 
-    <Wrapper style={{ transform: `translateY(${daySummaryOpen ? -transformY : 0}px)` }}>
+    <Wrapper style={{ transform: `translateY(${daySummaryOpen ? -transformY + 10 : 0}px)` }}>
       {new Array(6).fill(0).map((_, week) => <WeekDiv style={{}} key={week}>
         {new Array(7).fill(0).map((_, day) => {
           const dateNumber = (week * 7) + day - firstDay + 1;

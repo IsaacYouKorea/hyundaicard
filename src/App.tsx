@@ -14,6 +14,7 @@ const StyledApp = styled.div`
     return css`
       display: flex;
       flex-direction: column;
+      height: 100%;
     `
   }}
 `

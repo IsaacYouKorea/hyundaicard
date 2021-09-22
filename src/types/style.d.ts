@@ -17,6 +17,10 @@ declare module "styled-components" {
       xl: string;
     };
 
+    height: {
+      modalHeader: string;
+    }
+
     fonts: {
       family: {
         base: string;

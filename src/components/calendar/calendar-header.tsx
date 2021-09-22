@@ -1,7 +1,6 @@
 import styled from "styled-components";
+import { dayNames } from "../../util/date";
 import { StyledCalendarDay } from "./common";
-
-const dayNames = ['일', '월', '화', '수', '목', '금', '토'];
 
 const StyledCalendarHeader = styled.div`
   display: flex;

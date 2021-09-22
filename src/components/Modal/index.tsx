@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 import { CSSTransition } from "react-transition-group";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { usePaymentDispatch } from "../../context";
 const duration = 300;
 
@@ -38,38 +38,50 @@ const ModalWrapper = styled.div`
   width: 100vw;
   display: flex;
   flex-direction: column;
+  background: ${({theme}) => theme.colors.background};
+  border-radius: 1.5rem 1.5rem 0% 0%;
 `;
 
 const ModalHeader = styled.div`
   display: flex;
-  border-radius: 1.5rem 1.5rem 0% 0%;
   overflow: hidden;
-  height: 80px;
+  height: ${({theme}) => theme.height.modalHeader};
 `;
 
-const ModalTitle = styled.h2`
-  width: 100%;
-  margin: 0;
-  font-weight: bold;
-  color: white;
-  
+const ModalTitle = styled.div`
+  ${({theme}) => css`
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    color: ${theme.colors.white};
+    font-size: ${theme.fonts.size.lg};
+    display: flex;
+    align-items: center;
+    padding: ${theme.paddings.base}
+  `}
 `;
 
 const ModalBody = styled.div`
   overflow-y: scroll;
   flex:1;
-  max-height: calc(100vh - 80px);
+  max-height: calc(100vh - ${({theme}) => theme.height.modalHeader});
 `;
 
 const IconContainer = styled.div`
-  width: 3rem;
-  height: 3rem;
-  background: yellow;
+  width: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 0.25rem;
   cursor: pointer;
+  .close-button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 // console.log(modalRoot);
@@ -92,7 +104,8 @@ const Modal: React.FC<{ title: string, open: boolean, onExited?: any }> = ({ chi
         <ModalWrapper>
           <ModalHeader>
             <ModalTitle>{title}</ModalTitle>
-            <IconContainer onClick={closeModal}>Close</IconContainer>
+            <IconContainer onClick={closeModal}>
+              <div className="close-button">X</div></IconContainer>
           </ModalHeader>
           <ModalBody>
             {children}

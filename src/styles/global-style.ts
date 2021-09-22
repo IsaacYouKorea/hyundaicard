@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
     color: ${darkTheme.colors.white};
     background-color: ${darkTheme.colors.background};
     padding: 0 ${darkTheme.paddings.base};
+    height: 100vh;
+  }
+  #root {
+    height: 100%;
   }
 
   a {
