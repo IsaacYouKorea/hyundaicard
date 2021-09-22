@@ -15,6 +15,7 @@ function Item({ payment }: { payment: PaymentData }) {
   const dispatch = usePaymentDispatch();
   const openDetail = useCallback((data: PaymentData) => {
     dispatch({ type: 'PAYMENT/SELECT_PAYMENT', data });
+    dispatch({ type: 'UI/OPEN_MODAL', open: true });
   }, [dispatch]);
 
   return <StyledItem onClick={() => openDetail(payment)}>

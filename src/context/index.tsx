@@ -23,14 +23,16 @@ type State = {
   paymentDataList: PaymentData[],
   paymentsById: PaymentsById,
   paymentsByDay: PaymentsByDay,
-  openDaySummary: boolean
+  daySummaryOpen: boolean,
+  modalOpen: boolean
 }
 
 type Action =
   | { type: 'PAYMENT/SELECT_PAYMENT', data: PaymentData | undefined }
   | { type: 'PAYMENT/LOAD_PAYMENTS', payments: PaymentData[] }
   | { type: 'CALENDAR/SET_DATE', month: number, year: number, day?: number }
-  | { type: 'UI/OPEN_DAY_SUMMARY', openDaySummary: boolean }
+  | { type: 'UI/OPEN_DAY_SUMMARY', daySummaryOpen: boolean }
+  | { type: 'UI/OPEN_MODAL', open: boolean }
 
 type PaymentDispatch = Dispatch<Action>;
 
@@ -67,13 +69,20 @@ function reducer(state: State, action: Action): State {
       return {
         ...state,
         date: {
-          ...action
+          year: action.year,
+          month: action.month,
+          day: action.day
         }
       }
     case 'UI/OPEN_DAY_SUMMARY':
       return {
         ...state,
-        openDaySummary: action.openDaySummary
+        daySummaryOpen: action.daySummaryOpen
+      }
+    case 'UI/OPEN_MODAL':
+      return {
+        ...state,
+        modalOpen: action.open
       }
     default:
       throw new Error('Unhandled action');
@@ -90,9 +99,10 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     },
     selectedPaymentData: undefined,
     paymentDataList: [],
-    openDaySummary: false,
+    daySummaryOpen: false,
     paymentsByDay: {},
-    paymentsById: {}
+    paymentsById: {},
+    modalOpen: false,
   });
 
   useEffect(() => {

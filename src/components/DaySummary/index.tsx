@@ -22,8 +22,8 @@ function DaySummary() {
   const dispatch = usePaymentDispatch();
   
   const toggleSummary = useCallback(() => {
-    dispatch({ type: 'UI/OPEN_DAY_SUMMARY', openDaySummary: !state.openDaySummary });
-  }, [state.openDaySummary, dispatch]);
+    dispatch({ type: 'UI/OPEN_DAY_SUMMARY', daySummaryOpen: !state.daySummaryOpen });
+  }, [state.daySummaryOpen, dispatch]);
 
   useEffect(() => {
     const day = dayString(state.date.year, state.date.month, state.date.day || 0);
@@ -31,7 +31,7 @@ function DaySummary() {
   }, [state.date, state.paymentsByDay])
 
   return (
-    <DaySummaryDiv open={state.openDaySummary}>
+    <DaySummaryDiv open={state.daySummaryOpen}>
       <button onClick={toggleSummary}></button>
       <div>
         {state.date.month + 1}월 {state.date.day}일
