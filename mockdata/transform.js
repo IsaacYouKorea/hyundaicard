@@ -15,6 +15,7 @@ function deepen(obj) {
   // For each object path (property key) in the object
   for (const objectPath in obj) {
     // Split path into component parts
+    if(objectPath[0] === '_') continue;
     const parts = objectPath.split('.');
 
     // Create sub-objects along path as needed
@@ -31,4 +32,4 @@ function deepen(obj) {
   return result;
 }
 
-fs.writeFileSync('mockdata/mock.json', travel(mockRawData));
+fs.writeFileSync('src/mock/mock.json', travel(mockRawData), {encoding:'utf8',flag:'w'});
