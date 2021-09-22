@@ -18,6 +18,7 @@ const fonts = {
   family: {
     base: `'Noto Sans KR', sans-serif`,
     title: `'Merriweather', serif`,
+    youAndI: `'Noto Sans KR', sans-serif`,
   },
   size: {
     sm: "1.4rem",

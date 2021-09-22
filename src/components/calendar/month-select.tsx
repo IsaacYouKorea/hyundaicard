@@ -1,3 +1,4 @@
+import styled, { css } from "styled-components";
 import { MODAL_TYPE, usePaymentDispatch } from "../../context";
 
 interface IProps {
@@ -5,10 +6,21 @@ interface IProps {
   month: number
 }
 
+const StyledButton = styled.button`
+  ${({theme}) => 
+    css`
+      color: ${theme.colors.white};
+      font-size: ${theme.fonts.size.lg};
+      font-family: ${theme.fonts.family.youAndI};
+      margin: auto 0;
+    `
+  }
+`
+
 function MonthSelect({year, month}: IProps) {
   const dispatch = usePaymentDispatch();
   const openModalMonth = () => dispatch({type: 'UI/OPEN_MODAL', open: true, modalType: MODAL_TYPE.MONTH})
-  return <button onClick={openModalMonth}>{year}년 {month + 1}월</button>
+  return <StyledButton onClick={openModalMonth}>{month + 1}월</StyledButton>
 }
 
 export default MonthSelect;

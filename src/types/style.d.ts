@@ -20,6 +20,7 @@ declare module "styled-components" {
       family: {
         base: string;
         title: string;
+        youAndI: string;
       };
       size: {
         sm: string;
