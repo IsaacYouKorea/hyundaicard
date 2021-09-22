@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import styled from "styled-components";
 import { usePaymentDispatch, usePaymentState } from "../context";
-import Modal from "./Modal/Modal";
+import Modal from "./Modal";
 
 const PaymentDetailDiv = styled.div`
   width: 100%;
