@@ -30,7 +30,8 @@ type State = {
   paymentsByDay: PaymentsByDay,
   daySummaryOpen: boolean,
   modalOpen: boolean,
-  modalType?: MODAL_TYPE
+  modalType?: MODAL_TYPE,
+  paymentDate: number,
 }
 
 type Action =
@@ -110,7 +111,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     paymentsByDay: {},
     paymentsById: {},
     modalOpen: false,
-    modalType: undefined
+    modalType: undefined,
+    paymentDate: 25,
   });
 
   useEffect(() => {

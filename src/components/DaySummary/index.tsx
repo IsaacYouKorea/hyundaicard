@@ -36,9 +36,12 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
     }
     .date {
       color: ${theme.colors.grey[700]};
-      margin: ${theme.margins.sm} 0;
+      margin: ${theme.margins.base} 0 ${theme.margins.sm};
       font-weight: ${theme.fonts.weight.semiBold};
       width: 100%;
+      .payment-date {
+        color: ${theme.colors.white};
+      }
     }
     .scroll {
       overflow-y: scroll;
@@ -53,6 +56,14 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
         font-size: ${theme.fonts.size.base};
         line-height: 1.5;
         letter-spacing: -1px;
+        .button-specification {
+          width: 100%;
+          height: 3rem;
+          background: ${theme.colors.grey[300]};
+          color: ${theme.colors.white};
+          margin: ${theme.margins.xl} 0;
+          border-radius: 0.5rem;
+        }
       }
     }
     `
@@ -81,12 +92,12 @@ function DaySummary() {
 
 
   return (
-    <DaySummaryDiv open={state.daySummaryOpen} style={{transform: `translateY(${state.daySummaryOpen ? '-300px' : '0px'})`}}>
+    <DaySummaryDiv open={state.daySummaryOpen} style={{ transform: `translateY(${state.daySummaryOpen ? '-300px' : '0px'})` }}>
       <div className="toggle-ui">
-        <button className="btn-open" onClick={toggleSummary}/>
+        <button className="btn-open" onClick={toggleSummary} />
       </div>
       <div className="date">
-        {state.date.month + 1}월 {state.date.day}일 ({dayName})
+        {state.date.day === state.paymentDate && <span className="payment-date">결제일</span>} {state.date.month + 1}월 {state.date.day}일 ({dayName})
       </div>
       <div className="scroll">
         <div className="list">
@@ -94,7 +105,8 @@ function DaySummary() {
         </div>
         <div className="message">
           {list.length === 0 && '이용내역이 없습니다'}
-          {list.length !== 0 &&
+          {state.date.day === state.paymentDate && <button className="button-specification">{state.date.month + 1}월 명세서 보기</button>}
+          {(list.length !== 0 || state.date.day === state.paymentDate) &&
             <span>일부 금액은 실제 결제 금액과 다를 수 있습니다.<br />정확한 결제 금액은 이용대금명세서를 확인해 주세요.</span>}
         </div>
       </div>

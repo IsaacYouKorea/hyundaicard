@@ -65,7 +65,7 @@ function MonthCalendar({ year, month }: IProps) {
   const firstDay = new Date(year, month, 1).getDay();
   const lastDate = new Date(year, month + 1, 0).getDate();
 
-  const { date, paymentsByDay, daySummaryOpen } = usePaymentState();
+  const { date, paymentsByDay, daySummaryOpen, paymentDate } = usePaymentState();
   const dispatch = usePaymentDispatch();
   const selectDate = (year: number, month: number, day: number) => {
     dispatch({ type: "CALENDAR/SET_DATE", year, month, day });
@@ -99,9 +99,9 @@ function MonthCalendar({ year, month }: IProps) {
               closeDaySummary();
             }}>
             <div className="dayNumber">{dateNumber}</div>
-            <DayInfo isRed={dateNumber === 25}>
-              {dateNumber === 25 ? `결제일` : ''}
-              {dateNumber === 25 ? <br /> : ''}
+            <DayInfo isRed={dateNumber === paymentDate}>
+              {dateNumber === paymentDate ? `결제일` : ''}
+              {dateNumber === paymentDate ? <br /> : ''}
               {numberWithCommas(paymentsByDay[dayString(year, month, dateNumber)]?.sum) || ''}
             </DayInfo>
           </DayDiv>
