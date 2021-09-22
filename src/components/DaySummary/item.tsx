@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import styled from "styled-components";
-import { usePaymentDispatch } from "../../context";
+import { MODAL_TYPE, usePaymentDispatch } from "../../context";
 
 const StyledItem = styled.div`
   .flex {
@@ -15,7 +15,7 @@ function Item({ payment }: { payment: PaymentData }) {
   const dispatch = usePaymentDispatch();
   const openDetail = useCallback((data: PaymentData) => {
     dispatch({ type: 'PAYMENT/SELECT_PAYMENT', data });
-    dispatch({ type: 'UI/OPEN_MODAL', open: true });
+    dispatch({ type: 'UI/OPEN_MODAL', open: true, modalType: MODAL_TYPE.PAYMENT_DETAIL });
   }, [dispatch]);
 
   return <StyledItem onClick={() => openDetail(payment)}>

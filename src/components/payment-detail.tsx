@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import styled from "styled-components";
-import { usePaymentDispatch, usePaymentState } from "../context";
+import { MODAL_TYPE, usePaymentDispatch, usePaymentState } from "../context";
 import Modal from "./Modal";
 
 const PaymentDetailDiv = styled.div`
@@ -17,10 +17,10 @@ function PaymentDetail() {
 
   const { selectedPaymentData } = usePaymentState();
   const dispatch = usePaymentDispatch();
-  const { modalOpen } = usePaymentState();
+  const { modalOpen, modalType } = usePaymentState();
   const onExited = () => dispatch({type: 'PAYMENT/SELECT_PAYMENT', data: undefined});
 
-  return <Modal open={modalOpen && !!selectedPaymentData} title={selectedPaymentData?.client || ''} onExited={onExited}>
+  return <Modal open={modalOpen && modalType === MODAL_TYPE.PAYMENT_DETAIL } title={selectedPaymentData?.client || ''} onExited={onExited}>
     <PaymentDetailDiv>
       <div>
         <div>

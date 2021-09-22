@@ -77,7 +77,7 @@ const IconContainer = styled.div`
 const Modal: React.FC<{ title: string, open: boolean, onExited?: any }> = ({ children, title, open, onExited }) => {
 
   const dispatch = usePaymentDispatch();
-  const closeModal = () => dispatch({ type: 'UI/OPEN_MODAL', open: false });
+  const closeModal = () => dispatch({ type: 'UI/OPEN_MODAL', open: false, modalType: undefined });
 
   const modalMarkup = (
     <CSSTransition

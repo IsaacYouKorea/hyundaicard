@@ -13,6 +13,11 @@ interface PaymentsById {
   [key: number]: PaymentData;
 }
 
+export enum MODAL_TYPE {
+  'MONTH',
+  'PAYMENT_DETAIL'
+}
+
 type State = {
   date: {
     month: number,
@@ -24,7 +29,8 @@ type State = {
   paymentsById: PaymentsById,
   paymentsByDay: PaymentsByDay,
   daySummaryOpen: boolean,
-  modalOpen: boolean
+  modalOpen: boolean,
+  modalType?: MODAL_TYPE
 }
 
 type Action =
@@ -32,7 +38,7 @@ type Action =
   | { type: 'PAYMENT/LOAD_PAYMENTS', payments: PaymentData[] }
   | { type: 'CALENDAR/SET_DATE', month: number, year: number, day?: number }
   | { type: 'UI/OPEN_DAY_SUMMARY', daySummaryOpen: boolean }
-  | { type: 'UI/OPEN_MODAL', open: boolean }
+  | { type: 'UI/OPEN_MODAL', open: boolean, modalType?: MODAL_TYPE }
 
 type PaymentDispatch = Dispatch<Action>;
 
@@ -82,7 +88,8 @@ function reducer(state: State, action: Action): State {
     case 'UI/OPEN_MODAL':
       return {
         ...state,
-        modalOpen: action.open
+        modalOpen: action.open,
+        modalType: action.modalType
       }
     default:
       throw new Error('Unhandled action');
@@ -103,6 +110,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     paymentsByDay: {},
     paymentsById: {},
     modalOpen: false,
+    modalType: undefined
   });
 
   useEffect(() => {
