@@ -21,15 +21,16 @@ const fonts = {
     youAndI: `'Noto Sans KR', sans-serif`,
   },
   size: {
-    sm: "1.4rem",
-    base: "1.6rem",
-    lg: "2rem",
-    xl: "2.5rem",
+    sm: "0.5rem",
+    base: "1rem",
+    lg: "1.5rem",
+    xl: "2rem",
     title: "1rem",
   },
   weight: {
     light: 100,
     normal: 400,
+    semiBold: 600,
     bold: 700,
   },
 };

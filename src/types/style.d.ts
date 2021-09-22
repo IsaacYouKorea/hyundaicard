@@ -32,6 +32,7 @@ declare module "styled-components" {
       weight: {
         light: number;
         normal: number;
+        semiBold: number;
         bold: number;
       };
     };
