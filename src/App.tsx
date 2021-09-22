@@ -12,8 +12,8 @@ import GlobalStyle from "./styles/global-style";
 const StyledApp = styled.div`
   ${({ theme }) => {
     return css`
-      width: 100vw;
-      height: 100vh;
+      display: flex;
+      flex-direction: column;
     `
   }}
 `
@@ -21,7 +21,6 @@ const StyledApp = styled.div`
 
 function App() {
   // const [theme, setTheme] = useState(darkTheme);
-
   return (
     <AppProvider>
       <ThemeProvider theme={darkTheme}>
