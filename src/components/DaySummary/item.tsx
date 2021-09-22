@@ -41,7 +41,7 @@ function Item({ payment }: { payment: PaymentData }) {
       <div>{numberWithCommas(payment.price)}원</div>
     </div>
     <div className="sub">
-      <span>{payment.date.year.toString().slice(2, 4)}. {payment.date.month}. {payment.date.day} <span className="dot"/> {fixDigit(payment.date.hour)}:{fixDigit(payment.date.minute)} <span className="dot"/> {payment.installment.month ? payment.installment.month + '개월' : '일시불'}</span>
+      <span>{payment.date.year.toString().slice(2, 4)}. {payment.date.month + 1}. {payment.date.day} <span className="dot"/> {fixDigit(payment.date.hour)}:{fixDigit(payment.date.minute)} <span className="dot"/> {payment.installment.month > 1 ? payment.installment.month + '개월' : '일시불'}</span>
     </div>
   </StyledItem>
 }

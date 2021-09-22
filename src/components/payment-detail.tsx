@@ -85,7 +85,7 @@ function PaymentDetail() {
         </li>
         <li className="flex">
           <div>결제구분</div>
-          <div>{selectedPaymentData?.installment.month === 0 ? '일시불' : selectedPaymentData?.installment.month + '개월'}</div>
+          <div>{selectedPaymentData?.installment.month === undefined || selectedPaymentData?.installment.month <= 1 ? '일시불' : selectedPaymentData?.installment.month + '개월'}</div>
         </li>
         <li className="flex">
           <div>결제카드</div>
