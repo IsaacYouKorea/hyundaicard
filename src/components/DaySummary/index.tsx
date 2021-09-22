@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { usePaymentDispatch, usePaymentState } from "../../context";
 import styled, { css } from 'styled-components';
 import { dayNames, dayString } from "../../util/date";
@@ -75,6 +75,10 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
 
 function DaySummary() {
   const [list, setList] = useState<PaymentData[]>([]);
+  const sortedList = useMemo(() =>
+    list.sort((a, b) =>
+      (a.date.hour * 60 + (a.date.minute)) - (b.date.hour * 60 + (b.date.minute))), 
+    [list]);
 
   const state = usePaymentState();
   const dispatch = usePaymentDispatch();
@@ -98,7 +102,7 @@ function DaySummary() {
     <DaySummaryDiv open={state.daySummaryOpen} style={{ transform: `translateY(${state.daySummaryOpen ? '-300px' : '0px'})` }}>
       <div className="toggle-ui" onClick={toggleSummary}>
         <button className="btn-open" >
-          <ToggleChevron isUp={!state.daySummaryOpen}/>
+          <ToggleChevron isUp={!state.daySummaryOpen} />
         </button>
       </div>
       <div className="date">
@@ -106,7 +110,7 @@ function DaySummary() {
       </div>
       <div className="scroll">
         <div className="list">
-          {list.map((item) => <Item payment={item} />)}
+          {sortedList.map((item) => <Item payment={item} />)}
         </div>
         <div className="message">
           {list.length === 0 && '이용내역이 없습니다'}
