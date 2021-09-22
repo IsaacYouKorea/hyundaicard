@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import { MODAL_TYPE, usePaymentDispatch } from "../../context";
+import ToggleChevron from "../common/ToggleChevron";
 
 interface IProps {
   year: number
@@ -7,7 +8,7 @@ interface IProps {
 }
 
 const StyledButton = styled.button`
-  ${({theme}) => 
+  ${({ theme }) =>
     css`
       color: ${theme.colors.white};
       font-size: ${theme.fonts.size.xl};
@@ -18,10 +19,10 @@ const StyledButton = styled.button`
   }
 `
 
-function MonthSelect({year, month}: IProps) {
+function MonthSelect({ year, month }: IProps) {
   const dispatch = usePaymentDispatch();
-  const openModalMonth = () => dispatch({type: 'UI/OPEN_MODAL', open: true, modalType: MODAL_TYPE.MONTH})
-  return <StyledButton onClick={openModalMonth}>{month + 1}월</StyledButton>
+  const openModalMonth = () => dispatch({ type: 'UI/OPEN_MODAL', open: true, modalType: MODAL_TYPE.MONTH })
+  return <StyledButton onClick={openModalMonth}>{month + 1}월 <ToggleChevron/></StyledButton>
 }
 
 export default MonthSelect;

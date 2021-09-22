@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import styled, { css } from "styled-components";
 import { MODAL_TYPE, usePaymentDispatch, usePaymentState } from "../context";
 import { numberWithCommas } from "../util/number";
+import ToggleChevron from "./common/ToggleChevron";
 import Modal from "./Modal";
 
 const PaymentDetailDiv = styled.div`
@@ -74,7 +75,7 @@ function PaymentDetail() {
       <div className="flex main">
         <div className="price">{numberWithCommas(selectedPaymentData?.price)}원</div>
         <div onClick={() => setPriceDetail(!priceDetail)}>
-          금액상세
+          금액상세 <ToggleChevron isUp={!priceDetail}/>
         </div>
       </div>
       <div style={{ display: priceDetail ? "block" : "none" }}>

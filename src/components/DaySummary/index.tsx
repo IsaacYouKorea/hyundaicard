@@ -3,6 +3,7 @@ import { usePaymentDispatch, usePaymentState } from "../../context";
 import styled, { css } from 'styled-components';
 import { dayNames, dayString } from "../../util/date";
 import Item from "./item";
+import ToggleChevron from "../common/ToggleChevron";
 
 
 const DaySummaryDiv = styled.div<{ open: boolean }>`
@@ -30,8 +31,10 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
       .btn-open {
         width: 3rem;
         height: 1.5rem;
-        background: white;
         margin: 0 auto;
+        font-size: ${theme.fonts.size.title};
+        transform: scale(1.8, 1);
+        color: ${theme.colors.white}40;
       }
     }
     .date {
@@ -93,8 +96,10 @@ function DaySummary() {
 
   return (
     <DaySummaryDiv open={state.daySummaryOpen} style={{ transform: `translateY(${state.daySummaryOpen ? '-300px' : '0px'})` }}>
-      <div className="toggle-ui">
-        <button className="btn-open" onClick={toggleSummary} />
+      <div className="toggle-ui" onClick={toggleSummary}>
+        <button className="btn-open" >
+          <ToggleChevron isUp={!state.daySummaryOpen}/>
+        </button>
       </div>
       <div className="date">
         {state.date.day === state.paymentDate && <span className="payment-date">결제일</span>} {state.date.month + 1}월 {state.date.day}일 ({dayName})

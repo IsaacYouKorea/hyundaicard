@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 import { MODAL_TYPE, usePaymentDispatch, usePaymentState } from "../../context";
 import { monthsBefore } from "../../util/date";
+import { IconCheck } from "../Icons";
 import Modal from "../Modal";
 
 const months = monthsBefore().reverse();
@@ -14,7 +15,7 @@ const Wrapper = styled.div`
   `}
 `
 
-const MonthButton = styled.button`
+const MonthButton = styled.div`
   ${({ theme }) => css`
     width: 100%;
     color: ${theme.colors.white};
@@ -23,6 +24,8 @@ const MonthButton = styled.button`
     font-weight: ${theme.fonts.weight.semiBold};
     padding: ${theme.paddings.lg} 0;
     border-bottom: 1px solid ${theme.colors.white}20;
+    display: flex;
+    justify-content: space-between;
   `}
 `;
 
@@ -42,9 +45,9 @@ function MonthModal() {
         <MonthButton onClick={() => {
           setYearMonth(month.year, month.month, date.day || 1)
           closeModal();
-
         }}>
-          {month.year}년 {month.month + 1}월
+          <div>{month.year}년 {month.month + 1}월</div>
+          {(month.year === date.year && month.month === date.month) && <div><IconCheck/></div>}
         </MonthButton>
       )}
     </Wrapper>
