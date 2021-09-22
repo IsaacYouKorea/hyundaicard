@@ -1,3 +1,5 @@
+import { DefaultTheme } from "styled-components";
+
 const margins = {
   sm: ".5rem",
   base: "1rem",
@@ -59,14 +61,6 @@ const device = {
   desktopL: `@media only screen and (max-width: ${size.desktop})`,
 };
 
-//테마에 따라 다른 값을 갖는 색상 값입니다 
-const lightThemeColors = {
-  ...colors,
-  primary: "#333",
-  secondary: "#fff",
-  tertiary: "#808080",
-};
-
 const darkThemeColors = {
   ...colors,
   primary: colors.white,
@@ -84,12 +78,7 @@ const defalutTheme = {
 };
 
 // 각 테마는 공통 변수와 함께, 각기 다른 색상 값들을 갖습니다.
-export const darkTheme = {
+export const darkTheme:DefaultTheme = {
   ...defalutTheme,
   colors: darkThemeColors,
-};
-
-export const lightTheme = {
-  ...defalutTheme,
-  colors: lightThemeColors,
 };

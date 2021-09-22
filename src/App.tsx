@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ThemeProvider } from 'styled-components';
+import styled, { css, ThemeProvider } from 'styled-components';
 import './App.css';
 import Calendar from './components/calendar';
 import DaySummary from './components/DaySummary';
@@ -7,19 +7,33 @@ import Header from './components/header';
 import PaymentDetail from './components/payment-detail';
 import { AppProvider, usePaymentDispatch } from './context';
 import { darkTheme } from './styles/theme';
+import GlobalStyle from "./styles/global-style";
+
+const StyledApp = styled.div`
+  ${({ theme }) => {
+    console.log(theme)
+    return css`
+      width: 100vw;
+      height: 100vh;
+      background: ${theme.colors.background}
+    `
+  }}
+`
+
 
 function App() {
-  const [theme, setTheme] = useState(darkTheme);
+  // const [theme, setTheme] = useState(darkTheme);
 
   return (
     <AppProvider>
-      <ThemeProvider theme={theme}>
-        <div className="App">
+      <ThemeProvider theme={darkTheme}>
+        <GlobalStyle />
+        <StyledApp>
           <Header />
           <Calendar />
           <DaySummary />
           <PaymentDetail />
-        </div>
+        </StyledApp>
       </ThemeProvider>
     </AppProvider>
   );
