@@ -57,7 +57,7 @@ const ModalTitle = styled.div`
     font-size: ${theme.fonts.size.lg};
     display: flex;
     align-items: center;
-    padding: ${theme.paddings.base}
+    padding: ${theme.paddings.base} 0 0 ${theme.paddings.base}
   `}
 `;
 
