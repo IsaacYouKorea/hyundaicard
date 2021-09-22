@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { CSSTransition } from "react-transition-group";
 import styled, { css } from "styled-components";
 import { usePaymentDispatch } from "../../context";
+import { IconClose } from "../Icons";
 const duration = 300;
 
 
@@ -105,7 +106,10 @@ const Modal: React.FC<{ title: string, open: boolean, onExited?: any }> = ({ chi
           <ModalHeader>
             <ModalTitle>{title}</ModalTitle>
             <IconContainer onClick={closeModal}>
-              <div className="close-button">X</div></IconContainer>
+              <div className="close-button">
+                <IconClose/>
+              </div>
+              </IconContainer>
           </ModalHeader>
           <ModalBody>
             {children}
