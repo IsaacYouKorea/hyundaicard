@@ -12,7 +12,7 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
   bottom: 0px;
   min-height: 40vh;
   width: 100%;
-  transform: ${(props) => `translateY(${props.open ? '-400px' : '0px'})`}
+  transform: ${(props) => `translateY(${props.open ? '-350px' : '0px'})`}
 `
 
 function DaySummary() {

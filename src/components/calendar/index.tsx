@@ -1,4 +1,5 @@
 import { usePaymentDispatch, usePaymentState } from "../../context";
+import CalendarHeader from "./calendar-header";
 import CalendarSwiper from "./calendar-swiper";
 import MonthCalendar from "./month-calendar";
 import MonthModal from "./month-modal";
@@ -11,6 +12,7 @@ function Calendar() {
   return (
     <div>
       <MonthSelect year={state.date.year} month={state.date.month}/>
+      <CalendarHeader/>
       <CalendarSwiper/>
       <MonthModal/>
     </div>
