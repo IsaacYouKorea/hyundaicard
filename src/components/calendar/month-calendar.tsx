@@ -50,7 +50,7 @@ const DayDiv = styled(StyledCalendarDay)`
   }}
 `
 
-const DayInfo = styled.div<{isRed?: boolean}>`
+const DayInfo = styled.div<{ isRed?: boolean }>`
   ${({ theme, isRed }) => css`
     margin: ${theme.margins.sm} 0 0;
     font-size: ${theme.fonts.size.sm};
@@ -70,8 +70,15 @@ function MonthCalendar({ year, month }: IProps) {
   const selectDate = (year: number, month: number, day: number) => {
     dispatch({ type: "CALENDAR/SET_DATE", year, month, day });
   }
+  const closeDaySummary = () => dispatch({ type: 'UI/OPEN_DAY_SUMMARY', daySummaryOpen: false });
 
   const [transformY, setTransformY] = useState(0);
+  const selectedDay = useRef(null);
+  useEffect(() => {
+    if (selectedDay.current) {
+      setTransformY((selectedDay.current as HTMLDivElement).offsetTop);
+    }
+  }, [selectedDay.current]);
 
   return (
 
@@ -83,12 +90,13 @@ function MonthCalendar({ year, month }: IProps) {
           return <DayDiv
             weekend={day === 0}
             key={dateNumber}
+            ref={(date.year === year && date.month === month && date.day === dateNumber) ? selectedDay : null}
             className={[
               (date.year === year && date.month === month && date.day === dateNumber) ? 'selected' : ''
             ].join(' ')}
             onClick={(evt) => {
-              setTransformY((evt.target as HTMLDivElement).offsetTop);
               selectDate(year, month, dateNumber)
+              closeDaySummary();
             }}>
             <div className="dayNumber">{dateNumber}</div>
             <DayInfo isRed={dateNumber === 25}>
