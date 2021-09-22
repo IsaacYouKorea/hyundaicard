@@ -36,6 +36,8 @@ const PaymentDetailDiv = styled.div`
     
     .price {
       font-size: ${theme.fonts.size.xl};
+      font-family: ${theme.fonts.family.youAndI};
+      font-weight: ${theme.fonts.weight.bold};
     }
 
     .client-wrapper {

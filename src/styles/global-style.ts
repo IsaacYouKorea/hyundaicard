@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
 import { darkTheme } from "./theme";
+import './font.css';
 
 // 위에서 받은 `normalize`로 기본 css가 초기화 합니다.
 const GlobalStyle = createGlobalStyle`
@@ -14,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0 ${darkTheme.paddings.base};
     height: 100vh;
   }
+
   #root {
     height: 100%;
   }

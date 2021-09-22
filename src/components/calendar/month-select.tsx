@@ -12,6 +12,7 @@ const StyledButton = styled.button`
       color: ${theme.colors.white};
       font-size: ${theme.fonts.size.xl};
       font-family: ${theme.fonts.family.youAndI};
+      font-weight: ${theme.fonts.weight.bold};
       margin: ${theme.margins.lg} 0;
     `
   }
