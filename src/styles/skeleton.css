@@ -30,4 +30,5 @@
 .skeleton-list-item {
   -webkit-animation: skeleton-gradient 1.8s infinite ease-in-out;
   animation: skeleton-gradient 1.8s infinite ease-in-out;
+  border-radius: 0.5rem;
 }
