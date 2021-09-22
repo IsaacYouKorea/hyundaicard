@@ -24,7 +24,7 @@ const fonts = {
     base: "1.6rem",
     lg: "2rem",
     xl: "2.5rem",
-    title: "6rem",
+    title: "1rem",
   },
   weight: {
     light: 100,

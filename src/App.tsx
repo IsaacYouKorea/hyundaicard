@@ -11,11 +11,9 @@ import GlobalStyle from "./styles/global-style";
 
 const StyledApp = styled.div`
   ${({ theme }) => {
-    console.log(theme)
     return css`
       width: 100vw;
       height: 100vh;
-      background: ${theme.colors.background}
     `
   }}
 `
