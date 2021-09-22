@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { IconBack } from "./Icons";
 
 const StyledHeader = styled.div`
   ${({theme}) => css`
@@ -7,15 +8,23 @@ const StyledHeader = styled.div`
     height: ${theme.paddings.xl};
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-shrink: 0;
+    div {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    svg {
+      position: absolute;
+    }
   `}
 `
 
 function Header() {
   return (
     <StyledHeader>
-      날짜별 이용내역
+      <IconBack/>
+      <div>날짜별 이용내역</div>
     </StyledHeader>
   )
 }
