@@ -14,9 +14,11 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
     transition: 0.5s transform;
     z-index: 5;
     width: 100vw;
-    display: flex;
+    height: 100px;
     flex: 1;
     flex-direction: column;
+    flex-shrink: 1;
+    display: flex;
     .toggle-ui {
       width: 100vw;
       display: flex;
@@ -42,6 +44,8 @@ const DaySummaryDiv = styled.div<{ open: boolean }>`
       overflow-y: scroll;
       margin: 0 -${theme.paddings.base};
       padding: 0 ${theme.paddings.base};
+      height: 100px;
+      flex: 1;
       .message {
         text-align: center;
         margin: ${theme.margins.xl} 0;
