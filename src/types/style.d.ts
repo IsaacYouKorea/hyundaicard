@@ -3,6 +3,7 @@ import "styled-components";
 declare module "styled-components" {
   export interface DefaultTheme {
     margins: {
+      xs: string;
       sm: string;
       base: string;
       lg: string;
@@ -53,6 +54,7 @@ declare module "styled-components" {
       secondary: string,
       background: string,
       tertiary: string,
+      divider: string,
     };
     device: {
       mobile: string,

@@ -1,6 +1,7 @@
 import { DefaultTheme } from "styled-components";
 
 const margins = {
+  xs: ".25rem",
   sm: ".5rem",
   base: "1rem",
   lg: "2rem",
@@ -23,7 +24,7 @@ const fonts = {
   size: {
     sm: "0.5rem",
     base: "1rem",
-    lg: "1.5rem",
+    lg: "1.2rem",
     xl: "2rem",
     title: "1rem",
   },
@@ -38,6 +39,7 @@ const fonts = {
 const colors = {
   red: "#de4954",
   white: "#ffffff",
+  black: '#000000',
   grey: {
     100: "#353535",
     200: "#454545",
@@ -48,6 +50,7 @@ const colors = {
     700: "#959595",
   },
   blue: "#5da4e5",
+  
 };
 
 const size = {
@@ -69,6 +72,7 @@ const darkThemeColors = {
   secondary: colors.grey[700],
   background: colors.grey[100],
   tertiary: colors.red,
+  divider: `${colors.black}40`,
 };
 
 // 테마와 관련없이 공통으로 사용되는 변수들입니다

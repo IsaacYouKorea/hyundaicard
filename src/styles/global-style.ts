@@ -6,13 +6,12 @@ import { darkTheme } from "./theme";
 const GlobalStyle = createGlobalStyle`
   ${normalize}
 
-  html,
   body {
     overflow: hidden;
     font-family: ${darkTheme.fonts.family.base};
     color: ${darkTheme.colors.white};
     background-color: ${darkTheme.colors.background};
-    padding: 0 0.5rem;
+    padding: 0 ${darkTheme.paddings.base};
   }
 
   a {
