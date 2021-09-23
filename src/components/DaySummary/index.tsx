@@ -120,7 +120,7 @@ function DaySummary() {
       </div>
       {!isLoading && <div className="scroll">
         <div className="list">
-          {sortedList.map((item) => <Item payment={item} />)}
+          {sortedList.map((item, index) => <Item key={index} payment={item} />)}
         </div>
         <div className="message">
           {list.length === 0 && '이용내역이 없습니다'}

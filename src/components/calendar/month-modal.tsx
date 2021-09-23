@@ -41,8 +41,8 @@ function MonthModal() {
 
   return <Modal open={modalOpen && modalType === MODAL_TYPE.MONTH} title="월선택">
     <Wrapper>
-      {months.map((month) =>
-        <MonthButton onClick={() => {
+      {months.map((month, index) =>
+        <MonthButton key={index} onClick={() => {
           setYearMonth(month.year, month.month, date.day || 1)
           closeModal();
         }}>
