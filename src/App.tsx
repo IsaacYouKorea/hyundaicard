@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled, { css, ThemeProvider } from 'styled-components';
 import './App.css';
 import Calendar from './components/calendar';
 import DaySummary from './components/DaySummary';
 import Header from './components/header';
 import PaymentDetail from './components/payment-detail';
-import { AppProvider, usePaymentDispatch } from './context';
+import { AppProvider } from './context';
 import { darkTheme } from './styles/theme';
 import GlobalStyle from "./styles/global-style";
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { createPortal } from "react-dom";
 import { CSSTransition } from "react-transition-group";
 import styled, { css } from "styled-components";

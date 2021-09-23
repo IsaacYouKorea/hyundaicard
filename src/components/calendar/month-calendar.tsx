@@ -78,7 +78,7 @@ function MonthCalendar({ year, month }: IProps) {
     if (selectedDay.current) {
       setTransformY((selectedDay.current as HTMLDivElement).offsetTop);
     }
-  }, [selectedDay.current]);
+  }, []);
 
   return (
 

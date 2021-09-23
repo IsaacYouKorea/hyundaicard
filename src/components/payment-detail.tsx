@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useState } from "react";
 import styled, { css } from "styled-components";
 import { MODAL_TYPE, usePaymentDispatch, usePaymentState } from "../context";
 import { numberWithCommas } from "../util/number";

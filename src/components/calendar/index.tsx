@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import { usePaymentDispatch, usePaymentState } from "../../context";
+import { usePaymentState } from "../../context";
 import CalendarHeader from "./calendar-header";
 import CalendarSwiper from "./calendar-swiper";
-import MonthCalendar from "./month-calendar";
 import MonthModal from "./month-modal";
 import MonthSelect from "./month-select";
 
