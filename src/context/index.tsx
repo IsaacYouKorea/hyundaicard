@@ -1,5 +1,5 @@
+import axios from "axios";
 import React, { createContext, Dispatch, useContext, useEffect, useReducer } from "react";
-import mockData from '../mock/mock.json';
 import { dayString } from "../util/date";
 
 interface PaymentsByDay {
@@ -7,10 +7,6 @@ interface PaymentsByDay {
     sum: number,
     list: PaymentData[]
   };
-}
-
-interface PaymentsById {
-  [key: number]: PaymentData;
 }
 
 export enum MODAL_TYPE {
@@ -26,7 +22,6 @@ type State = {
   },
   selectedPaymentData?: PaymentData,
   paymentDataList: PaymentData[],
-  paymentsById: PaymentsById,
   paymentsByDay: PaymentsByDay,
   daySummaryOpen: boolean,
   modalOpen: boolean,
@@ -61,16 +56,10 @@ function reducer(state: State, action: Action): State {
         acc[day].sum += payment.price;
         return acc;
       }, {});
-      const paymentsById = action.payments.reduce<PaymentsById>((acc, payment) => {
-        const id = payment.id;
-        acc[id] = payment
-        return acc;
-      }, {});
       return {
         ...state,
         paymentDataList: action.payments,
-        paymentsByDay: paymentsByDay,
-        paymentsById: paymentsById,
+        paymentsByDay,
       }
     case 'CALENDAR/SET_DATE':
       return {
@@ -109,14 +98,17 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     paymentDataList: [],
     daySummaryOpen: false,
     paymentsByDay: {},
-    paymentsById: {},
     modalOpen: false,
     modalType: undefined,
     paymentDate: 25,
   });
 
   useEffect(() => {
-    dispatch({ type: 'PAYMENT/LOAD_PAYMENTS', payments: mockData as PaymentData[] })
+    async function getData() {
+      const { data } = await axios.get('http://localhost:3001/data');
+      dispatch({ type: 'PAYMENT/LOAD_PAYMENTS', payments: data as PaymentData[] })
+    }
+    getData();
   }, [])
 
   return (

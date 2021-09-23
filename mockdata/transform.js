@@ -6,7 +6,7 @@ function travel(array) {
   for(const data of array) {
     result.push(deepen(data));
   }
-  return JSON.stringify(result);
+  return JSON.stringify({data: result});
 }
 
 function deepen(obj) {
@@ -32,4 +32,4 @@ function deepen(obj) {
   return result;
 }
 
-fs.writeFileSync('src/mock/mock.json', travel(mockRawData), {encoding:'utf8',flag:'w'});
+fs.writeFileSync('mockdata/mock.json', travel(mockRawData), {encoding:'utf8',flag:'w'});
